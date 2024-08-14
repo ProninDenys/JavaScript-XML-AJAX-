@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Search</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Movie Search</h1>
+    <form id="search-form">
+      <label for="title">Movie Title:</label>
+      <input type="text" id="title" name="title" required />
+
+      <label for="type">Type:</label>
+      <select id="type" name="type">
+        <option value="movie">Movie</option>
+        <option value="series">Series</option>
+        <option value="episode">Episode</option>
+      </select>
+
+      <button type="submit">Search</button>
+    </form>
+
+    <div id="results"></div>
+    <div id="pagination"></div>
+    <div id="details"></div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
