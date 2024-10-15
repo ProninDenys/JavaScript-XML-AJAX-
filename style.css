@@ -21,7 +21,7 @@ h1 {
 
 form {
     background-color: #ffffff;
-    padding: 20px;
+    padding: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -36,10 +36,20 @@ form label {
     font-weight: bold;
     margin-bottom: 5px;
     color: #2b2d42;
+    
 }
 
-form input, form select, form button {
+ form select, form button {
     width: 100%; 
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form input {
+    width: 96%; 
     padding: 10px;
     margin-bottom: 15px;
     border: 1px solid #ddd;
